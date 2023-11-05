@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PL Fair 23 Movie Collective</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <!-- Logo -->
+        <a href="#" class="logo">Movie Collective</a>
+        <!-- Cart Icon -->
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        <!-- Cart -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!-- Content -->
+          <div class="cart-content"></div>
+          <!-- Total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">IDR 0</div>
+          </div>
+          <!-- Buy Button -->
+          <button type="button" class="btn-buy">Pay Now</button>
+          <!-- Close Cart -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Products -->
+    <section class="shop container">
+      <h2 class="section-title">Merchandise</h2>
+      <!-- Shop Content -->
+      <div class="shop-content">
+        <!-- Box 1 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_MX2Lgb4279I6xsNiADhzNu-flox9wYiv9sJpxZtg8OpLfMYOSd57qgElm5W-UzxfSryq_BXXqXM3hocC0vTHY0EW05OXfO-pbuRYJnCEqaW-jK827-TnLPDqplE3yPThVPQ_bU2FxgcSX74PQjGua2OBCuShqg-ZBIutKweYkpgbVxVf2xhvrq3IPUkA/s320/WhatsApp%20Image%202023-11-04%20at%2011.24.26%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">WHITE TEE</h2>
+          <span class="price">IDR 75K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 2 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhipXTB5T-tkTF2JDxdTqYJ73Nx5COE8n8zocKadQOJb9qiruqkAkA7qdZx7F92wfQmsK6p0nQRzimnKpLnzQdlcA1WNfjRmxEqL_rS41R2_SESFlfiNq4KQV3PXyj4VWQbO3eiV2_szZbXYIcJvpknJr9einTcQjsk3jjMJ8ZlAG_qytXXYdjs4zJSFP4d/s320/WhatsApp%20Image%202023-11-04%20at%2011.24.31%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">BLUE TEE</h2>
+          <span class="price">IDR 75K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 3 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_8lelaJ0LOFMD0Am5cxPPNG9bgQ4NIzHnnPn-3bjgo3tIuu5guGiPIwk8xxMsa014VB9L32SXV3R3nu9PFeWqgyuSU526bsQxHAnvDmLicJsAFMY9pTL8LJFLkhvx7t7ZLiwYqgnYJ4R7SpJqs8tk8P9rkOu57oEZhohyphenhyphen72Zv6FmMSE_lEeBj234t8lDc/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.50%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">TOTE BAG WHITE</h2>
+          <span class="price">IDR 75K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 4 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-3w5mdyRK5QDNOaGGqmfmJw-aekmqbwH5vmB0A5JgPAbdACtdkryfWHK0bD9kv1wrnsu56a7ErqDX4qGtPUmbvYTA0D-pItXTxf2ITSb96Z_LLwGoRmT5JM6uOp0iRGaggoNcAdxyO5MVL1J3cMs4qroG9w9DgPcz7ShJswA14y4mDQ8UfbWEEhbl6QYt/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.48%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">TOTE BAG GRAY</h2>
+          <span class="price">IDR 75K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 5 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs_pCklvTQZwrcHhUs8MXiLYbpKkqONpKrnVgrPiCUWSOaLZCN9pGzpwElhq9yIkrECxi8upIyR4N_5PIB0oLz4uUcy-QQdseXwfoMBxd_hopFNBE3P4JyVy6XYpug7lT97bkOQzG2Y8vveUCK-aaAZipn0O6Ss41glKKvFNa_JFGewDPfXhpA8ZoAo6Gn/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.56%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">TRUCKER CAP</h2>
+          <span class="price">IDR 40K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 6 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5pxJNt9y1yIp92VRfG-U0nvCi5HKKh8WqoOr6raomGw9okeAudJijININp0Fu4uyqRdgXVldJkvch7Q_aaOajoafMn_bn-inDvBVIuNynKTfCR7wgCtBUsPb__0Y6M7vZ2piBwoCp4I8J8-H6bikD0XD3-gJ6JnFGVWnqlGzlt5EgEYwDwtz2Ae75uu-o/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.52%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">KATAKANA STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 7 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkKFIQmvixZb2uPShmMhd4WkXhVFH04GitKymiPcE0LmD3LiDmV-GNOnAr8DK53ltEUaQVfAyAMfoyjVg81ySb4fg4gULRRbxeNPdfTcfqnIp5R_0Y5S13TMMVDbDmgKwT849IUcwtPznkDE-Eewfc9ZIKYb9WCiTdIYauh6wDU6LeJuMe_03Q8T35njXL/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.53%20AM%20(1).jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">VECTOR STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 8 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMW_ERz23q__Zr67MqXLdXbt0iJ1B0uC9DMgUPh6eYhoXIbFtwnTs4D44h1_YFbnm9V9eh5M9MZvi8iQ4TUFjKs0LdA30kmby8rm9aNomUZL10i6feJPvTLYegnmJTTKL3rzQ5ywUczEobdjppDy7DEkrokkWUc74XdRunWA5eqEkUlbkWMt4HDaxnpmC-/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.53%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">SOAP BAR STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 9 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigSmTbNxfrl-ihb0KQC7o_HY6tvfy_cI5uUH5RgBS7q-rs44Jri5VQFDRe2zvWcURDw9jTu8AjHOivjsRt2_6TgJVbpcgvYFCLtVdqDocaVKYWWluiI9xbDg7gh6TcDPMsprxtWBy10-1xQ2W9Do8DuDqIAXK4AwpnGLiN7SzyyeSRlYMb3SUuIlE-SCM8/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.56%20AM%20(1).jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">LOWRIDER STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 10 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiya0ZRRdNTr06aeJpIz4w1YDVx-8pk0brZOajXBHiF9Qbun7TLgtyOUys6BT6PeNGgqdtizGRZn9iMQ38v1Wt5uz3amtZmtewYK9bQxVCfiD-r1pjUulCFysRP3GLH2KMi3Sr1dAKDmIe_eC-txg1YjKZ3nDS83NbcucstUQJRXrpaTNhBeqZeAqKalkyw/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.57%20AM%20(1).jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">DRIP STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- Box 11 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDQDVBTD55Nj5C8rz-yIbF5iDZLSRYDaZwn9ADrCGZSScdWsLXLJsunq5i0lY10tJmBeFy-kHh6MA1c41h3-uAz166JYPpEVXxQEaeGebXPNT2L_DbLGJoJIKm401omaUjep23kDnNgcVZPZZzLfPTCl2ex1MpGKl_P92EHfYKOOufn1YqNaCYTsX22roY/s320/WhatsApp%20Image%202023-11-04%20at%2011.30.57%20AM.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">METAL STICKER</h2>
+          <span class="price">IDR 5K</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Link to JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
